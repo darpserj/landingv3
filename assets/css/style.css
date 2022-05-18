@@ -11119,5 +11119,34 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: Kamber;
+  src: url(/assets/fonts/Kamber-Regular.ttf);
+}
+.display-3, .display-1 {
+  font-family: Kamber;
+}
+
+.testimonial-border1 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(45deg, rgb(2, 0, 36) 0%, rgb(194, 229, 255) 0%, rgb(255, 255, 255) 46%);
+  border-radius: 5rem;
+}
+
+.testimonial-border2 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(45deg, rgb(2, 0, 36) 0%, rgb(255, 231, 157) 0%, rgb(255, 255, 255) 46%);
+  border-radius: 5rem;
+}
+
+.testimonial-border3 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(45deg, rgb(2, 0, 36) 0%, rgb(255, 181, 206) 0%, rgb(255, 255, 255) 46%);
+  border-radius: 5rem;
+}
+
+.testimonial-border {
+  border-radius: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */

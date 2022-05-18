@@ -1,0 +1,23 @@
+@use '../custom' as *;
+
+.testimonial-border1{
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(194,229,255,1) 0%, rgba(255,255,255,1) 46%);
+    border-radius: 5rem;
+}
+
+.testimonial-border2{
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(255,231,157,1) 0%, rgba(255,255,255,1) 46%);
+    border-radius: 5rem;
+}
+
+.testimonial-border3{
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(255,181,206,1) 0%, rgba(255,255,255,1) 46%);
+    border-radius: 5rem;
+}
+
+.testimonial-border {
+    border-radius: 1rem;
+}
