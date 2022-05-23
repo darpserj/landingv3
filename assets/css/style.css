@@ -4627,27 +4627,27 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .accordion-item:first-of-type {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 .accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 .accordion-item:not(:first-of-type) {
   border-top: 0;
 }
 .accordion-item:last-of-type {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 .accordion-item:last-of-type .accordion-button.collapsed {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 .accordion-item:last-of-type .accordion-collapse {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .accordion-body {
@@ -11147,6 +11147,53 @@ textarea.form-control-lg {
 
 .testimonial-border {
   border-radius: 1rem;
+}
+
+.HeaderBox {
+  background-color: #6DC1FF;
+  margin: 0 1rem 0 1rem;
+  border-radius: 1rem;
+}
+
+.TextBox {
+  padding: 1rem;
+}
+
+.student {
+  border-radius: 50%;
+  border: 0.25rem solid white;
+}
+
+.testimonial1 {
+  background-color: greenyellow;
+}
+
+.testimonial2 {
+  background-color: rgb(47, 144, 255);
+}
+
+.testimonial3 {
+  background-color: rgb(255, 47, 161);
+}
+
+.PriceInfo {
+  background-color: #FF527C;
+}
+
+.PriceBox {
+  padding: 1rem 0 0 0;
+}
+
+.ButtonLink {
+  display: block;
+  background-color: #FF527C;
+  border-radius: 0.425rem;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 45%;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
